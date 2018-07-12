@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+   <ViewFlipper
+       android:layout_width="match_parent"
+       android:layout_height="180dp"
+       android:id="@+id/flipper"
+       android:autoStart="true"
+       android:flipInterval="3000">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/pic1" />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/pic2" />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/pic3" />
+   </ViewFlipper>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent" android:layout_height="120.0dip"
+                android:weightSum="3.0">
+                <RelativeLayout
+                    android:paddingRight="3.0dip" android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_courses" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/committee"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_course" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_course"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Anti Ragging Committee"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView android:id="@+id/img_gallery" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/squad"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_news" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_about_us"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Anti Ragging Squad"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:background="@color/white" android:paddingTop="3.0dip"
+                android:layout_width="fill_parent" android:layout_height="120.0dip" android:weightSum="3.0">
+                <RelativeLayout
+                    android:background="@color/white" android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/img_notice" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/monitor"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_notice" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_notice"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Monitoring Cell"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/white" android:paddingLeft="3.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_research" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/counc"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_research" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_research"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Anti Ragging Counselors and Nodal Officers"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

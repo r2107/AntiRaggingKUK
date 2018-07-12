@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Anti-Ragging KUK</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Anti-Ragging</string>
+    <string name="nav_header_subtitle">www.kuk.ac.in/</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Exit</string>
+    <string name="quotedesc">Welcome! Where should we help you?</string>
+    <string name="cse1">Computer Science and Engg. Department :</string>
+    <string name="ku">Kurukshetra University is one of the premier educational institutions of India. Established in 1956, the University is providing higher education to over half a million students on the campus and its affiliated colleges. By virtue of its commitment to excellence, the University has been awarded A+Grade by NAAC and has been placed at 8th position amongst the State Universities of the country in Category-I by the Ministry of Human Resource Development (MHRD) and has also been granted academic autonomy. Located on the southern bank of famed Brahm Sarovar, Kurukshetra University has a sprawling campus spread over 473 acres. In addition to providing quality education to the students, Kurukshetra University embodies the values of Yogastha Kuru Karmani, enshrined in Bhagwadgita, which means performing one’s activities while remaining steadfast in Yoga.\n\nThe University is in the rapid process of transformation to an institution of excellence. In this process, digitalization of the University is being done to develop an efficient and transparent system that would further facilitate a learner’s experience in the University.\n\nThe University programmes combine the enduring value of a liberal arts education with the skills and experience offered by professional departments. The University offers 175 courses on the campus in 47 Departments/institutes through a highly qualified faculty. The University also plays an important role in providing higher education to the youth of the State through its 282 affiliated colleges and institutes in seven district of Haryana.\n\nThe campus of the University has often been rated as one of the most beautiful campuses in India. It resembles a large, self-contained educational village with lecture theaters, smart class rooms, Wi-Fi campus, 24 hrs library facility, laboratories, on campus hostel accommodation, cafeterias, canteens, market, swimming pool, gymnasia, bank, ATM’s, post office and world-class sports facilities. The most remarkable feature of the campus is a seamless interconnection of nature and the built environment. There are a number of lush green gardens, water fountains and sidewalks which provide an ideal environment on the campus for study and leisure.
+
+</string>
+
+    <string name="cse2">The Computer Science and Engg. Department was established in the year 2004.
+        The department offers B.Tech. and M.Tech. degrees.
+The Department started with an intake of 60 in B.Tech. degree programme and 20 in M.Tech.
+        (Software Engg.). In view of the increasing importance of the Computer Engineering discipline,
+        the intake of the department was increased to 120 in 2007.
+To keep pace with the current technological trends, the Department has introduced a credit based
+        postgraduate programme leading to M.Tech. in Computer Engineering in the year 2009. Ever since its establishment,
+        the Department has always been on a high growth path and has experienced and dedicated faculty with a strong
+        commitment to engineering education. Our students are exposed to up-to-date equipment, technology and techniques.
+        We have well equipped laboratories with state-of-the-art facilities like Blade sever, servers, thin clients and
+        desktops (from IBM, HP,HCL etc.). Induction of new courses from time to time enables the students to keep abreast of
+        recent technological developments. Flexibility in curriculum is provided through Electives Seminars and Projects.
+</string>
+</resources>

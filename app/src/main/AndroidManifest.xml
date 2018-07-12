@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anc.anti_raggingkuk">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Helpline"
+            android:label="Helpline" />
+        <activity
+            android:name=".Committee"
+            android:label="Anti-Ragging Committee" />
+        <activity
+            android:name=".Squad"
+            android:label="Anti-Ragging Squad" />
+        <activity
+            android:name=".Zone1"
+            android:label="Zone1" />
+        <activity
+            android:name=".Zone2"
+            android:label="Zone2" />
+        <activity
+            android:name=".Zone3"
+            android:label="Zone3" />
+        <activity
+            android:name=".Zone4"
+            android:label="Zone4" />
+        <activity
+            android:name=".MonitoringCell"
+            android:label="Monitoring Cell" />
+        <activity
+            android:name=".Counselors"
+            android:label="Counselors and Nodal" />
+        <activity
+            android:name=".AboutDev"
+            android:label="CSE Department" />
+        <activity android:name=".acts" />
+        <activity
+            android:name=".AboutKuk"
+            android:label="About KUK" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Locate" />
+        <activity android:name=".AboutUiet"
+            android:label="UIET"></activity>
+    </application>
+
+</manifest>

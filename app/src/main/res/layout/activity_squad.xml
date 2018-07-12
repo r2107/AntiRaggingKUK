@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Squad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn1"
+            android:background="@drawable/button"
+            android:padding="15sp"
+            android:text="Zone-1 (Boys Hostels)"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent" />
+        <Button
+            android:id="@+id/btn2"
+            android:background="@drawable/button"
+            android:padding="15sp"
+            android:text="Zone-2 (Girls Hostels)"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent" />
+        <Button
+            android:id="@+id/btn3"
+            android:background="@drawable/button"
+            android:padding="15sp"
+            android:text="Zone-3 (UIET, IOL, UCK, UCEK, Inst.of Pharmacy, IMC MT, Inst.of Mgt.)"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent" />
+        <Button
+            android:id="@+id/btn4"
+            android:background="@drawable/button"
+            android:padding="15sp"
+            android:text="Zone-4 (Univ. Campus and other Vulnerable Places)"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+</ScrollView>
