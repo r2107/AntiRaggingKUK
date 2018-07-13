@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 public class AboutDev extends AppCompatActivity {
 
-    WebView wbcse1,wbcse2;
+   // WebView wbcse1,wbcse2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +23,10 @@ public class AboutDev extends AppCompatActivity {
         LinearLayout l6= findViewById(R.id.rh3);
 
         //this.wbcse1 = findViewById(R.id.wbcse);
-        this.wbcse2 = findViewById(R.id.wbcse1);
+        //this.wbcse2 = findViewById(R.id.wbcse1);
         // wbece2.setScrollBarStyle(WebView.SCROLLBARS_INSIDE_OVERLAY);
         //this.wbcse1.loadData(("<html><body ><p align=\"justify\">" + getString(R.string.cse1)) + "</p></body></html>", "text/html", "utf-8");
-        this.wbcse2.loadData(("<html><body ><p align=\"justify\">" + getString(R.string.cse2)) + "</p></body></html>", "text/html", "utf-8");
+       // this.wbcse2.loadData(("<html><body ><p align=\"justify\">" + getString(R.string.cse2)) + "</p></body></html>", "text/html", "utf-8");
 
 
         l3.setOnClickListener(new View.OnClickListener() {

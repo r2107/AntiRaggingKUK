@@ -32,6 +32,17 @@ public class AboutKuk extends AppCompatActivity {
 
             }
         });
+        LinearLayout gm = findViewById(R.id.gmf);
+        gm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                        "mailto","dsw@kuk.ac.in", null));
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
+                emailIntent.putExtra(Intent.EXTRA_TEXT, "Body");
+                startActivity(Intent.createChooser(emailIntent, "Send email..."));
+            }
+        });
         this.wbku = findViewById(R.id.wbkuk);
         this.wbku.loadData(("<html><body ><p align=\"justify\">" + getString(R.string.ku)) + "</p></body></html>", "text/html", "utf-8");
 

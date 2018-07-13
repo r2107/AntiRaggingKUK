@@ -107,7 +107,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:textSize="16sp"
-                android:text="Follow Us on Facebook"/>
+                android:text="Visit UIET KUK(Official)"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -126,7 +126,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:textSize="16sp"
-                android:text="Send Mail/Feedback"/>
+                android:text="Mail Us"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,7 +145,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:textSize="16sp"
-                android:text="By Computer Science Department"/>
+                android:text="Developed By"/>
         </LinearLayout>
 
     </LinearLayout>
